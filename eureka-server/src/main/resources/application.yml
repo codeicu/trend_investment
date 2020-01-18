@@ -1,0 +1,18 @@
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+
+
+#   hostname: localhost 表示主机名称。
+#   registerWithEureka：false. 表示是否注册到服务器。
+#   fetchRegistry: false. 表示是否获取服务器的注册信息。
+#   defaultZone： http://${eureka.instance.hostname}:${server.port}/eureka/ 服务器的公布地址。
+
+spring:
+  application:
+    name: eureka-server
