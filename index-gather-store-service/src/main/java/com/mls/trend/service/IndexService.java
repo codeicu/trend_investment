@@ -4,6 +4,10 @@ import cn.hutool.core.collection.CollectionUtil;
 import com.mls.trend.entity.Index;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CacheConfig;
+import org.springframework.cache.annotation.CacheEvict;
+import org.springframework.cache.annotation.CachePut;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
@@ -15,6 +19,7 @@ import java.util.Map;
 * 指数服务类，用于获取第三方数据
 * */
 @Service
+@CacheConfig(cacheNames = "indexes")
 public class IndexService {
     private List<Index> indexes;
 
@@ -22,14 +27,35 @@ public class IndexService {
     RestTemplate restTemplate;
 
 
-    @HystrixCommand(fallbackMethod = "third_paet_not_connected")
+    @CacheEvict(allEntries = true)
+    public void remove(){
+        System.out.println("remove cache...");
+    }
+
+
+    @HystrixCommand(fallbackMethod = "third_part_not_connected")
+    @CachePut(key = "'all_codes'",unless = "#result[0].code=='000000'")
+    public List<Index> fresh(){
+        System.out.println("fresh cache from third part...");
+        return fetch_indexes_from_third_part();
+    }
+
+    /*@HystrixCommand(fallbackMethod = "third_part_not_connected")*/
     public List<Index> fetch_indexes_from_third_part(){
         List<Map> temp= restTemplate.getForObject("http://localhost:8090/indexes/codes.json",List.class);
         return map2Index(temp);
-
     }
 
-    public List<Index> third_paet_not_connected(){
+    @HystrixCommand(fallbackMethod = "third_part_not_connected")
+    @Cacheable(key = "'all_codes'")
+    public List<Index> get(){
+        System.out.println("get from third part...");
+        return fetch_indexes_from_third_part();
+    }
+
+
+
+    public List<Index> third_part_not_connected(){
         System.out.println("Third part index service not connected!");
         Index index = new Index();
         index.setCode("000000");
