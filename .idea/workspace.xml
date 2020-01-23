@@ -4,7 +4,12 @@
     <bookmark url="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" line="13" mnemonic="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="339a49f9-8426-4dd5-ad1b-fa625668990d" name="Default Changelist" comment="" />
+    <list default="true" id="339a49f9-8426-4dd5-ad1b-fa625668990d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-gather-store-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/index-gather-store-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-gather-store-service/src/main/java/com/mls/trend/service/IndexDataService.java" beforeDir="false" afterPath="$PROJECT_DIR$/index-gather-store-service/src/main/java/com/mls/trend/service/IndexDataService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-gather-store-service/target/classes/com/mls/trend/service/IndexDataService.class" beforeDir="false" afterPath="$PROJECT_DIR$/index-gather-store-service/target/classes/com/mls/trend/service/IndexDataService.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/testChildProject/target/" />
@@ -22,30 +27,83 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index-gather-store-service/src/main/java/com/mls/trend/service/IndexService.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index-gather-store-service/src/main/java/com/mls/trend/service/IndexDataService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="51" column="45" lean-forward="true" selection-start-line="51" selection-start-column="45" selection-end-line="51" selection-end-column="45" />
+            <state relative-caret-position="69">
+              <caret line="37" column="76" selection-start-line="37" selection-start-column="76" selection-end-line="37" selection-end-column="76" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#887#888#0" expanded="true" />
-                <element signature="e#940#941#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index-gather-store-service/src/main/java/com/mls/trend/controller/IndexController.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+            <state relative-caret-position="184">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index-gather-store-service/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="33" column="21" lean-forward="true" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index-gather-store-service/src/main/java/com/mls/trend/util/IndexDataSyncJob.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="33" column="52" lean-forward="true" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#605#606#0" expanded="true" />
-                <element signature="e#659#660#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index-gather-store-service/src/main/java/com/mls/trend/config/MyQuartzConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.3.0/quartz-2.3.0.jar!/org/quartz/SimpleScheduleBuilder.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="108" column="56" lean-forward="true" selection-start-line="108" selection-start-column="56" selection-end-line="108" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.3.0/quartz-2.3.0.jar!/org/quartz/JobDetail.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="28" column="10" lean-forward="true" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.3.0/quartz-2.3.0.jar!/org/quartz/JobBuilder.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="85" column="13" lean-forward="true" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -53,8 +111,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index-gather-store-service/src/main/java/com/mls/trend/entity/IndexData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+            <state relative-caret-position="253">
+              <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
               <folding>
                 <element signature="e#123#124#0" expanded="true" />
                 <element signature="e#150#151#0" expanded="true" />
@@ -69,66 +127,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index-gather-store-service/src/main/java/com/mls/trend/service/IndexDataService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index-gather-store-service/src/main/java/com/mls/trend/controller/IndexDataController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="19" column="64" lean-forward="true" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
+            <state relative-caret-position="187">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/third-part-index-data-project/src/main/resources/static/indexes/000015.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/third-part-index-data-project/src/main/resources/static/indexes/000016.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/third-part-index-data-project/src/main/resources/static/indexes/000992.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/third-part-index-data-project/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index-gather-store-service/src/main/java/com/mls/trend/IndexGatherStoreApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="36" column="37" lean-forward="true" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1610#1611#0" expanded="true" />
-                <element signature="e#1651#1652#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -166,14 +170,16 @@
         <option value="$PROJECT_DIR$/index-gather-store-service/src/main/java/com/mls/trend/entity/Index.java" />
         <option value="$PROJECT_DIR$/eureka-server/src/main/java/com/mls/trend/EurekaServerApplication.java" />
         <option value="$PROJECT_DIR$/index-gather-store-service/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/index-gather-store-service/pom.xml" />
         <option value="$PROJECT_DIR$/index-gather-store-service/src/main/java/com/mls/trend/IndexGatherStoreApplication.java" />
         <option value="$PROJECT_DIR$/index-gather-store-service/src/main/java/com/mls/trend/config/MyCacheConfig.java" />
         <option value="$PROJECT_DIR$/index-gather-store-service/src/main/java/com/mls/trend/service/IndexService.java" />
         <option value="$PROJECT_DIR$/index-gather-store-service/src/main/java/com/mls/trend/controller/IndexController.java" />
         <option value="$PROJECT_DIR$/index-gather-store-service/src/main/java/com/mls/trend/entity/IndexData.java" />
-        <option value="$PROJECT_DIR$/index-gather-store-service/src/main/java/com/mls/trend/service/IndexDataService.java" />
         <option value="$PROJECT_DIR$/index-gather-store-service/src/main/java/com/mls/trend/controller/IndexDataController.java" />
+        <option value="$PROJECT_DIR$/index-gather-store-service/src/main/java/com/mls/trend/service/IndexDataService.java" />
+        <option value="$PROJECT_DIR$/index-gather-store-service/pom.xml" />
+        <option value="$PROJECT_DIR$/index-gather-store-service/src/main/java/com/mls/trend/config/MyQuartzConfiguration.java" />
+        <option value="$PROJECT_DIR$/index-gather-store-service/src/main/java/com/mls/trend/util/IndexDataSyncJob.java" />
       </list>
     </option>
   </component>
@@ -192,10 +198,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="101" />
-    <option name="y" value="13" />
+    <option name="x" value="160" />
+    <option name="y" value="219" />
     <option name="width" value="1940" />
-    <option name="height" value="1043" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -205,7 +211,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -279,7 +284,7 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="mls" type="462c0819:PsiDirectoryNode" />
               <item name="trend" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="trendParentProject" type="b2602c69:ProjectViewProjectNode" />
@@ -291,25 +296,14 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="mls" type="462c0819:PsiDirectoryNode" />
               <item name="trend" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trendParentProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trendParentProject" type="462c0819:PsiDirectoryNode" />
-              <item name="index-gather-store-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mls" type="462c0819:PsiDirectoryNode" />
-              <item name="trend" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -346,7 +340,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.IndexGatherStoreApplication">
+  <component name="RunManager" selected="Spring Boot.EurekaServerApplication">
     <configuration name="TestHutool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mls.test.TestHutool" />
       <module name="testChildProject" />
@@ -408,8 +402,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ThirdPartIndexDataApplication" />
         <item itemvalue="Spring Boot.IndexGatherStoreApplication" />
+        <item itemvalue="Spring Boot.ThirdPartIndexDataApplication" />
         <item itemvalue="Spring Boot.EurekaServerApplication" />
         <item itemvalue="Application.TestHutool" />
       </list>
@@ -428,12 +422,13 @@
       <workItem from="1579245001581" duration="897000" />
       <workItem from="1579325865140" duration="8072000" />
       <workItem from="1579340751632" duration="5649000" />
-      <workItem from="1579399493837" duration="16593000" />
+      <workItem from="1579399493837" duration="17124000" />
+      <workItem from="1579783410966" duration="6962000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31211000" />
+    <option name="totallyTimeSpent" value="38704000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -445,10 +440,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="101" y="13" width="1940" height="1043" extended-state="0" />
-    <editor active="true" />
+    <frame x="163" y="10" width="1940" height="1027" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.43345323" visible="true" weight="0.25531915" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.43345323" visible="true" weight="0.25797874" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -458,8 +452,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.35265958" visible="true" weight="0.38833883" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.35265958" visible="true" weight="0.387458" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39977604" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946696" weight="0.32936078" />
@@ -487,94 +481,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/testChildProject/src/main/java/com/mls/trend/App.java" />
-    <entry file="file://$PROJECT_DIR$/testChildProject/src/main/java/com/mls/test/TestHutool.java" />
-    <entry file="file://$PROJECT_DIR$/testChildProject/pom.xml" />
-    <entry file="uml://MAVEN/com.mls.trend:trendParentProject:1.0-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>com.mls.trend:trendParentProject:1.0-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="" y="">com.mls.trend:trendParentProject:1.0-SNAPSHOT</node>
-            <node x="" y="">junit:junit:jar:4.11</node>
-            <node x="" y="">junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.3.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.3.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.3.RELEASE/org.springframework.boot:spring-boot:jar:2.0.3.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.3.RELEASE/org.springframework.boot:spring-boot:jar:2.0.3.RELEASE/org.springframework:spring-context:jar:5.0.7.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.3.RELEASE/org.springframework.boot:spring-boot:jar:2.0.3.RELEASE/org.springframework:spring-context:jar:5.0.7.RELEASE/org.springframework:spring-aop:jar:5.0.7.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.3.RELEASE/org.springframework.boot:spring-boot:jar:2.0.3.RELEASE/org.springframework:spring-context:jar:5.0.7.RELEASE/org.springframework:spring-beans:jar:5.0.7.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.3.RELEASE/org.springframework.boot:spring-boot:jar:2.0.3.RELEASE/org.springframework:spring-context:jar:5.0.7.RELEASE/org.springframework:spring-expression:jar:5.0.7.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.3.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.0.3.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.3.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.3.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.3.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3/ch.qos.logback:logback-core:jar:1.2.3</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.3.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.3.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0/org.apache.logging.log4j:log4j-api:jar:2.10.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.3.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.25</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.3.RELEASE/javax.annotation:javax.annotation-api:jar:1.3.2</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.3.RELEASE/org.yaml:snakeyaml:jar:1.19</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.3.RELEASE/org.springframework.boot:spring-boot-test:jar:2.0.3.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.3.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.0.3.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2/org.ow2.asm:asm:jar:5.0.4</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/org.slf4j:slf4j-api:jar:1.7.25</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.3.RELEASE/junit:junit:jar:4.12</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.3.RELEASE/org.assertj:assertj-core:jar:3.9.1</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.3.RELEASE/org.mockito:mockito-core:jar:2.15.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.3.RELEASE/org.mockito:mockito-core:jar:2.15.0/net.bytebuddy:byte-buddy:jar:1.7.11</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.3.RELEASE/org.mockito:mockito-core:jar:2.15.0/net.bytebuddy:byte-buddy-agent:jar:1.7.11</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.3.RELEASE/org.mockito:mockito-core:jar:2.15.0/org.objenesis:objenesis:jar:2.6</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.3.RELEASE/org.hamcrest:hamcrest-library:jar:1.3</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.3.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.3.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0/com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.3.RELEASE/org.springframework:spring-core:jar:5.0.7.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.3.RELEASE/org.springframework:spring-core:jar:5.0.7.RELEASE/org.springframework:spring-jcl:jar:5.0.7.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.3.RELEASE/org.springframework:spring-test:jar:5.0.7.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.3.RELEASE/org.xmlunit:xmlunit-core:jar:2.5.1</node>
-            <node x="" y="">cn.hutool:hutool-all:jar:4.3.1</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.6265193370165746" x="497.0" y="529.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.0.0.RELEASE/spring-cloud-netflix-eureka-client-2.0.0.RELEASE.jar!/org/springframework/cloud/netflix/eureka/EurekaClientAutoConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1264">
-          <caret line="190" column="35" selection-start-line="190" selection-start-column="35" selection-end-line="190" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.0.0.RELEASE/spring-cloud-commons-2.0.0.RELEASE.jar!/org/springframework/cloud/client/serviceregistry/AutoServiceRegistrationProperties.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-46">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/third-part-index-data-project/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -630,13 +536,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index-gather-store-service/src/main/java/com/mls/trend/entity/Index.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -675,13 +574,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index-gather-store-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index-gather-store-service/src/main/java/com/mls/trend/config/MyCacheConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -704,31 +596,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/third-part-index-data-project/src/main/resources/static/indexes/000992.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/third-part-index-data-project/src/main/resources/static/indexes/000016.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/third-part-index-data-project/src/main/resources/static/indexes/000015.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index-gather-store-service/src/main/java/com/mls/trend/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
-            <element signature="e#659#660#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.7.RELEASE/spring-web-5.0.7.RELEASE.jar!/org/springframework/web/client/RestTemplate.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -736,29 +603,178 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/third-part-index-data-project/src/main/resources/static/indexes/000015.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/third-part-index-data-project/src/main/resources/static/indexes/000016.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/third-part-index-data-project/src/main/resources/static/indexes/000992.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/third-part-index-data-project/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
-          <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index-gather-store-service/src/main/java/com/mls/trend/IndexGatherStoreApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="36" column="37" lean-forward="true" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+        <state relative-caret-position="598">
+          <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1610#1611#0" expanded="true" />
-            <element signature="e#1651#1652#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index-gather-store-service/src/main/java/com/mls/trend/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#605#606#0" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.7.RELEASE/spring-aop-5.0.7.RELEASE.jar!/org/springframework/aop/aspectj/annotation/InstantiationModelAwarePointcutAdvisorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.7.RELEASE/spring-aop-5.0.7.RELEASE.jar!/org/springframework/aop/framework/adapter/MethodBeforeAdviceAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#589#590#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.7.RELEASE/spring-aop-5.0.7.RELEASE.jar!/org/springframework/aop/framework/adapter/AfterReturningAdviceAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#597#598#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.7.RELEASE/spring-aop-5.0.7.RELEASE.jar!/org/springframework/aop/framework/adapter/ThrowsAdviceAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#565#566#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.7.RELEASE/spring-aop-5.0.7.RELEASE.jar!/org/springframework/aop/framework/adapter/DefaultAdvisorAdapterRegistry.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.7.RELEASE/spring-aop-5.0.7.RELEASE.jar!/org/springframework/aop/target/SingletonTargetSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#789#790#0" expanded="true" />
+            <element signature="e#876#877#0" expanded="true" />
+            <element signature="e#903#904#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.7.RELEASE/spring-aop-5.0.7.RELEASE.jar!/org/springframework/aop/framework/CglibAopProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="494" selection-start-line="494" selection-end-line="494" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.7.RELEASE/spring-aop-5.0.7.RELEASE.jar!/org/springframework/aop/framework/AdvisedSupport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="146" selection-start-line="146" selection-end-line="146" />
+          <folding>
+            <element signature="e#2490#2491#0" expanded="true" />
+            <element signature="e#2530#2531#0" expanded="true" />
+            <element signature="e#4712#4713#0" expanded="true" />
+            <element signature="e#14646#14647#0" expanded="true" />
+            <element signature="e#14690#14691#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.7.RELEASE/spring-aop-5.0.7.RELEASE.jar!/org/springframework/aop/framework/DefaultAdvisorChainFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_202/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="497" selection-start-line="497" selection-end-line="497" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_202/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_202/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.7.RELEASE/spring-web-5.0.7.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="121" selection-start-line="121" selection-end-line="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_202/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="747" selection-start-line="747" selection-end-line="747" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.31/tomcat-embed-core-8.5.31.jar!/org/apache/tomcat/util/threads/TaskThread.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index-gather-store-service/src/main/java/com/mls/trend/service/IndexService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="51" column="45" lean-forward="true" selection-start-line="51" selection-start-column="45" selection-end-line="51" selection-end-column="45" />
+        <state relative-caret-position="237">
+          <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#887#888#0" expanded="true" />
@@ -769,8 +785,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index-gather-store-service/src/main/java/com/mls/trend/entity/IndexData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        <state relative-caret-position="253">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
           <folding>
             <element signature="e#123#124#0" expanded="true" />
             <element signature="e#150#151#0" expanded="true" />
@@ -783,20 +799,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index-gather-store-service/src/main/java/com/mls/trend/service/IndexDataService.java">
+    <entry file="file://$PROJECT_DIR$/index-gather-store-service/src/main/java/com/mls/trend/controller/IndexDataController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="187">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index-gather-store-service/src/main/java/com/mls/trend/controller/IndexDataController.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="19" column="64" lean-forward="true" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
+        <state relative-caret-position="184">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index-gather-store-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="33" column="21" lean-forward="true" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.3.0/quartz-2.3.0.jar!/org/quartz/JobDetail.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="28" column="10" lean-forward="true" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.3.0/quartz-2.3.0.jar!/org/quartz/JobBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="85" column="13" lean-forward="true" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.3.0/quartz-2.3.0.jar!/org/quartz/SimpleScheduleBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="108" column="56" lean-forward="true" selection-start-line="108" selection-start-column="56" selection-end-line="108" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index-gather-store-service/src/main/java/com/mls/trend/config/MyQuartzConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index-gather-store-service/src/main/java/com/mls/trend/util/IndexDataSyncJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="33" column="52" lean-forward="true" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index-gather-store-service/src/main/java/com/mls/trend/service/IndexDataService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="37" column="76" selection-start-line="37" selection-start-column="76" selection-end-line="37" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

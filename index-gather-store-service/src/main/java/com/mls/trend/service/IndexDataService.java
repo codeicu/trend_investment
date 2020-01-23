@@ -35,7 +35,7 @@ public class IndexDataService {
     }
 
     @HystrixCommand(fallbackMethod = "third_part_not_connected")
-    @CachePut(key="'indexData-code-'+ #p0",unless = "#result[0].closePoint!='0'")
+    @CachePut(key="'indexData-code-'+ #p0",unless = "#result[0].closePoint==0.0")
     public List<IndexData> fresh(String code){
         System.out.println("fresh indexDatas...");
         return fetch_indexDatas_from_third_part(code);
