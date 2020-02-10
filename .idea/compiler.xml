@@ -7,9 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="third-part-index-data-project" />
-        <module name="eureka-server" />
         <module name="index-gather-store-service" />
+        <module name="eureka-server" />
         <module name="index-codes-service" />
+        <module name="index-zuul-service" />
         <module name="index-data-service" />
       </profile>
     </annotationProcessing>
@@ -23,6 +24,7 @@
       <module name="index-codes-service" options="-parameters" />
       <module name="index-data-service" options="-parameters" />
       <module name="index-gather-store-service" options="-parameters" />
+      <module name="index-zuul-service" options="-parameters" />
       <module name="third-part-index-data-project" options="-parameters" />
     </option>
   </component>
