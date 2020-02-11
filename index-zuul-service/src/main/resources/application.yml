@@ -10,6 +10,9 @@ zuul:
     api-a:
       path: /api-codes/**
       service-id: INDEX-CODES-SERVICE
+    api-b:
+      path: /api-backtest/**
+      service-id: TREND-TRADING-BACKTEST-SERVICE
 
 
 hystrix:

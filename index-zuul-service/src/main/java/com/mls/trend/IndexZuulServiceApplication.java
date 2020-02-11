@@ -10,7 +10,7 @@ import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 @SpringBootApplication
 @EnableZuulProxy
 @EnableEurekaClient
-@EnableDiscoveryClient
+@EnableDiscoveryClient         //表示可以发现其他微服务，方便进行通信
 public class IndexZuulServiceApplication {
     //  http://127.0.0.1:8031/api-codes/codes
     public static void main(String[] args) {

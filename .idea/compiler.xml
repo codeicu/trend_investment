@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="third-part-index-data-project" />
         <module name="trend-trading-backtest-service" />
+        <module name="trend-trading-backtest-view" />
         <module name="index-gather-store-service" />
         <module name="eureka-server" />
         <module name="index-codes-service" />
@@ -28,6 +29,7 @@
       <module name="index-zuul-service" options="-parameters" />
       <module name="third-part-index-data-project" options="-parameters" />
       <module name="trend-trading-backtest-service" options="-parameters" />
+      <module name="trend-trading-backtest-view" options="-parameters" />
     </option>
   </component>
 </project>
