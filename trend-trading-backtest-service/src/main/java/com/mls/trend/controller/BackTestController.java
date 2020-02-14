@@ -3,6 +3,7 @@ package com.mls.trend.controller;
 
 import cn.hutool.core.date.DateUtil;
 import cn.hutool.core.util.StrUtil;
+import com.mls.trend.entity.AnnualProfit;
 import com.mls.trend.entity.IndexData;
 import com.mls.trend.entity.Profit;
 import com.mls.trend.entity.Trade;
@@ -50,6 +51,7 @@ public class BackTestController {
         * lossCount：亏损次数
         * avgWinRate：平均盈利率
         * avgLossRate：平均亏损率
+        * annualProfits：每年收益
         * */
         float years = backTestService.getYear(allIndexDatas);
         float indexIncomeTotal = (allIndexDatas.get(allIndexDatas.size()-1).getClosePoint() - allIndexDatas.get(0).getClosePoint()) / allIndexDatas.get(0).getClosePoint();
@@ -61,6 +63,9 @@ public class BackTestController {
         int lossCount = (Integer) simulateResult.get("lossCount");
         float avgWinRate = (Float) simulateResult.get("avgWinRate");
         float avgLossRate = (Float) simulateResult.get("avgLossRate");
+
+        List<AnnualProfit> annualProfits = (List<AnnualProfit>) simulateResult.get("annualProfits");
+
 
         Map<String,Object> result = new HashMap<>();
         result.put("indexDatas", allIndexDatas);
@@ -79,6 +84,8 @@ public class BackTestController {
         result.put("lossCount", lossCount);
         result.put("avgWinRate", avgWinRate);
         result.put("avgLossRate", avgLossRate);
+
+        result.put("annualProfits", annualProfits);
         return result;
     }
 

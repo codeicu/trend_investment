@@ -1,7 +1,10 @@
 package com.mls.trend.service;
 
+import cn.hutool.core.convert.Convert;
 import cn.hutool.core.date.DateUnit;
 import cn.hutool.core.date.DateUtil;
+import cn.hutool.core.util.StrUtil;
+import com.mls.trend.entity.AnnualProfit;
 import com.mls.trend.entity.IndexData;
 import com.mls.trend.entity.Profit;
 import com.mls.trend.entity.Trade;
@@ -127,6 +130,8 @@ public class BackTestService {
         avgWinRate = totalWinRate / winCount;
         avgLossRate = totalLossRate / lossCount;
 
+        List<AnnualProfit> annualProfits = caculateAnnualProfits(indexDatas, profits);
+
         Map<String,Object> map = new HashMap<>();
         map.put("profits", profits);
         map.put("trades", trades);
@@ -134,6 +139,7 @@ public class BackTestService {
         map.put("lossCount", lossCount);
         map.put("avgWinRate", avgWinRate);
         map.put("avgLossRate", avgLossRate);
+        map.put("annualProfits", annualProfits);
         return map;
     }
 
@@ -183,6 +189,78 @@ public class BackTestService {
         long days = DateUtil.between(dateStart, dateEnd, DateUnit.DAY);
         years = days/365f;
         return years;
+    }
+
+
+    //计算指数每一年的指数收益、趋势收益
+    private List<AnnualProfit> caculateAnnualProfits(List<IndexData> indexDatas, List<Profit> profits) {
+        List<AnnualProfit> result = new ArrayList<>();
+        String strStartDate = indexDatas.get(0).getDate();
+        String strEndDate = indexDatas.get(indexDatas.size()-1).getDate();
+
+        Date startDate = DateUtil.parse(strStartDate);
+        Date endDate = DateUtil.parse(strEndDate);
+
+        int startYear = DateUtil.year(startDate);
+        int endYear = DateUtil.year(endDate);
+
+        for (int year =startYear; year <= endYear; year++) {
+            AnnualProfit annualProfit = new AnnualProfit();
+            annualProfit.setYear(year);
+
+            float indexIncome = getIndexIncome(year,indexDatas);
+            float trendIncome = getTrendIncome(year,profits);
+            annualProfit.setIndexIncome(indexIncome);
+            annualProfit.setTrendIncome(trendIncome);
+            result.add(annualProfit);
+
+        }
+        return result;
+    }
+
+    //计算指定年份的指数收益
+    private float getIndexIncome(int year, List<IndexData> indexDatas) {
+        IndexData first=null;
+        IndexData last=null;
+
+        for (IndexData indexData : indexDatas) {
+            String strDate = indexData.getDate();
+//          Date date = DateUtil.parse(strDate);
+            int currentYear = getYear(strDate);
+
+            if(currentYear == year) {
+                if(null==first)
+                    first = indexData;
+                last = indexData;
+            }
+        }
+        return (last.getClosePoint() - first.getClosePoint()) / first.getClosePoint();
+    }
+
+    //计算指定年份的趋势收益
+    private float getTrendIncome(int year, List<Profit> profits) {
+        Profit first=null;
+        Profit last=null;
+
+        for (Profit profit : profits) {
+            String strDate = profit.getDate();
+            int currentYear = getYear(strDate);
+
+            if(currentYear == year) {
+                if(null==first)
+                    first = profit;
+                last = profit;
+            }
+            if(currentYear > year)
+                break;
+        }
+        return (last.getValue() - first.getValue()) / first.getValue();
+    }
+
+    //获取指数日期的年份
+    private int getYear(String date) {
+        String strYear= StrUtil.subBefore(date, "-", false);
+        return Convert.toInt(strYear);
     }
 
 }
