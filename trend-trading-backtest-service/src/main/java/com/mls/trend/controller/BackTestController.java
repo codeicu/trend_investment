@@ -20,10 +20,23 @@ import java.util.*;
 public class BackTestController {
     @Autowired BackTestService backTestService;
 
-    @GetMapping("/simulate/{code}/{startDate}/{endDate}")
+    /*
+     * code:指数代码
+     * ma:均线
+     * startDate:开始日期
+     * endDate:截至日期
+     * buyThreshold:购买起点
+     * sellThreshold：出售阈值
+     * serviceCharge:服务费
+     * */
+    @GetMapping("/simulate/{code}/{ma}/{buyThreshold}/{sellThreshold}/{serviceCharge}/{startDate}/{endDate}")
     @CrossOrigin
     public Map<String,Object> backTest(
             @PathVariable("code") String code
+            ,@PathVariable("ma") int ma
+            ,@PathVariable("buyThreshold") float buyRate
+            ,@PathVariable("sellThreshold") float sellRate
+            ,@PathVariable("serviceCharge") float serviceCharge
             ,@PathVariable("startDate") String strStartDate
             ,@PathVariable("endDate") String strEndDate
     ) throws Exception {
@@ -34,10 +47,6 @@ public class BackTestController {
 
         allIndexDatas = filterByDateRange(allIndexDatas,strStartDate, strEndDate);
 
-        int ma = 20;    //均线，选取最近ma天计算均值
-        float sellRate = 0.95f;      //出售阈（yu）值
-        float buyRate = 1.05f;        //购买点
-        float serviceCharge = 0f;      //服务费
         Map<String,?> simulateResult= backTestService.simulate(ma,sellRate, buyRate,serviceCharge, allIndexDatas);
         List<Profit> profits = (List<Profit>) simulateResult.get("profits");
         List<Trade> trades = (List<Trade>) simulateResult.get("trades");

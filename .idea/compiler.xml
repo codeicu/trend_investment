@@ -11,8 +11,8 @@
         <module name="trend-trading-backtest-view" />
         <module name="index-gather-store-service" />
         <module name="eureka-server" />
-        <module name="index-zuul-service" />
         <module name="index-codes-service" />
+        <module name="index-zuul-service" />
         <module name="index-data-service" />
       </profile>
     </annotationProcessing>
