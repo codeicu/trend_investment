@@ -6,7 +6,7 @@ spring:
       label: master
       server:
         git:
-          uri: https://gitee.com/m_ls/sys_trend
+          uri: https://gitee.com/m_ls/sys_trend/
           searchPaths: respo
 eureka:
   client:
