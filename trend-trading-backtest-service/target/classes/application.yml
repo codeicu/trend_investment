@@ -11,6 +11,16 @@ spring:
 
 feign.hystrix.enabled: true
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+      cors:          # 配置跨域资源共享
+        allowed-origins: "*"
+        allowed-methods: "*"
+
+
 
 hystrix:
   command:
@@ -24,8 +34,6 @@ hystrix:
 ribbon:
   ReadTimeout: 60000
   ConnectTimeout: 60000
-
-
   max:
     host:
       connections: 500

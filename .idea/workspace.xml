@@ -5,18 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="339a49f9-8426-4dd5-ad1b-fa625668990d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index-config-server/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/index-config-server/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trend-trading-backtest-service/src/main/java/com/mls/trend/service/BackTestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/trend-trading-backtest-service/src/main/java/com/mls/trend/service/BackTestService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trend-trading-backtest-view/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/trend-trading-backtest-view/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trend-trading-backtest-view/src/main/java/com/mls/trend/TrendTradingBackTestViewApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/trend-trading-backtest-view/src/main/java/com/mls/trend/TrendTradingBackTestViewApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trend-trading-backtest-view/src/main/java/com/mls/trend/controller/ViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/trend-trading-backtest-view/src/main/java/com/mls/trend/controller/ViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trend-trading-backtest-view/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/trend-trading-backtest-view/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trend-trading-backtest-view/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/trend-trading-backtest-view/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trend-trading-backtest-view/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/trend-trading-backtest-view/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trend-trading-backtest-view/target/classes/com/mls/trend/TrendTradingBackTestViewApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/trend-trading-backtest-view/target/classes/com/mls/trend/TrendTradingBackTestViewApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trend-trading-backtest-view/target/classes/com/mls/trend/controller/ViewController.class" beforeDir="false" afterPath="$PROJECT_DIR$/trend-trading-backtest-view/target/classes/com/mls/trend/controller/ViewController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trend-trading-backtest-view/target/classes/templates/include/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/trend-trading-backtest-view/target/classes/templates/include/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trend-trading-backtest-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/trend-trading-backtest-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trend-trading-backtest-service/src/main/java/com/mls/trend/TrendTradingBackTestServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/trend-trading-backtest-service/src/main/java/com/mls/trend/TrendTradingBackTestServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trend-trading-backtest-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/trend-trading-backtest-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trend-trading-backtest-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/trend-trading-backtest-service/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trend-trading-backtest-service/target/classes/com/mls/trend/TrendTradingBackTestServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/trend-trading-backtest-service/target/classes/com/mls/trend/TrendTradingBackTestServiceApplication.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,6 +27,8 @@
     <ignored path="$PROJECT_DIR$/trend-trading-backtest-service/target/" />
     <ignored path="$PROJECT_DIR$/trend-trading-backtest-view/target/" />
     <ignored path="$PROJECT_DIR$/index-config-server/target/" />
+    <ignored path="$PROJECT_DIR$/index-hystrix-dashboard/target/" />
+    <ignored path="$PROJECT_DIR$/index-turbine/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,37 +55,58 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trend-trading-backtest-view/src/main/resources/bootstrap.yml">
+        <entry file="file://$PROJECT_DIR$/trend-trading-backtest-service/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+            <state relative-caret-position="428">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trend-trading-backtest-view/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/trend-trading-backtest-service/src/main/java/com/mls/trend/TrendTradingBackTestServiceApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            <state relative-caret-position="-255">
+              <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trend-trading-backtest-view/src/main/java/com/mls/trend/controller/ViewController.java">
+        <entry file="file://$PROJECT_DIR$/trend-trading-backtest-service/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+            <state relative-caret-position="221">
+              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index-config-server/src/main/java/com/mls/trend/util/FreshConfigUtil.java">
+        <entry file="file://$PROJECT_DIR$/index-turbine/src/main/java/com/mls/trend/IndexTurbineApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index-turbine/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="161">
-              <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trend-trading-backtest-service/src/main/java/com/mls/trend/service/AccessService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -95,70 +115,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index-config-server/src/main/java/com/mls/trend/controller/MyConfigCtroller.java">
+        <entry file="file://$PROJECT_DIR$/index-turbine/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="267">
+              <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trend-trading-backtest-service/src/main/java/com/mls/trend/controller/BackTestController.java">
+        <entry file="file://$PROJECT_DIR$/index-hystrix-dashboard/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1698">
-              <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trend-trading-backtest-service/src/main/java/com/mls/trend/service/BackTestService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="163" column="22" lean-forward="true" selection-start-line="163" selection-start-column="22" selection-end-line="163" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index-config-server/src/main/java/com/mls/trend/IndexConfigServerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="336">
+              <caret line="34" column="49" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config-repo/trend-trading-backtest-view-dev.properties">
+        <entry file="file://$PROJECT_DIR$/index-hystrix-dashboard/src/main/java/com/mls/trend/IndexHystrixDashboardApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="24" lean-forward="true" selection-start-column="24" selection-end-column="24" />
+            <state relative-caret-position="177">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trend-trading-backtest-view/src/main/java/com/mls/trend/TrendTradingBackTestViewApplication.java">
+        <entry file="file://$PROJECT_DIR$/index-hystrix-dashboard/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="69">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -185,13 +175,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index-codes-service/src/main/java/com/mls/trend/service/IndexService.java" />
-        <option value="$PROJECT_DIR$/index-codes-service/src/main/java/com/mls/trend/controller/IndexController.java" />
-        <option value="$PROJECT_DIR$/index-codes-service/src/main/java/com/mls/trend/config/RedisCacheConfig.java" />
-        <option value="$PROJECT_DIR$/index-gather-store-service/src/main/java/com/mls/trend/config/MyCacheConfig.java" />
-        <option value="$PROJECT_DIR$/index-data-service/src/main/java/com/mls/trend/config/IpConfiguration.java" />
-        <option value="$PROJECT_DIR$/index-data-service/src/main/java/com/mls/trend/config/RedisCacheConfig.java" />
-        <option value="$PROJECT_DIR$/index-data-service/src/main/java/com/mls/trend/service/IndexDataService.java" />
         <option value="$PROJECT_DIR$/index-data-service/src/main/java/com/mls/trend/entity/IndexData.java" />
         <option value="$PROJECT_DIR$/index-data-service/src/main/java/com/mls/trend/controller/IndexDataController.java" />
         <option value="$PROJECT_DIR$/trend-trading-backtest-service/src/main/java/com/mls/trend/entity/IndexData.java" />
@@ -208,17 +191,14 @@
         <option value="$PROJECT_DIR$/trend-trading-backtest-service/src/main/java/com/mls/trend/controller/BackTestController.java" />
         <option value="$PROJECT_DIR$/trend-trading-backtest-view/src/main/resources/templates/view.html" />
         <option value="$PROJECT_DIR$/index-data-service/pom.xml" />
-        <option value="$PROJECT_DIR$/trend-trading-backtest-service/pom.xml" />
         <option value="$PROJECT_DIR$/index-data-service/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/index-codes-service/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/index-codes-service/pom.xml" />
         <option value="$PROJECT_DIR$/index-zuul-service/pom.xml" />
         <option value="$PROJECT_DIR$/index-zuul-service/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/trend-trading-backtest-service/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/index-codes-service/src/main/java/com/mls/trend/IndexCodesApplication.java" />
         <option value="$PROJECT_DIR$/index-data-service/src/main/java/com/mls/trend/IndexDataApplication.java" />
         <option value="$PROJECT_DIR$/index-zuul-service/src/main/java/com/mls/trend/IndexZuulServiceApplication.java" />
-        <option value="$PROJECT_DIR$/trend-trading-backtest-service/src/main/java/com/mls/trend/TrendTradingBackTestServiceApplication.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/index-config-server/pom.xml" />
         <option value="$PROJECT_DIR$/index-config-server/src/main/java/com/mls/trend/IndexConfigServerApplication.java" />
@@ -236,6 +216,16 @@
         <option value="$PROJECT_DIR$/index-config-server/src/main/java/com/mls/trend/util/FreshConfigUtil.java" />
         <option value="$PROJECT_DIR$/index-config-server/src/main/java/com/mls/trend/controller/MyConfigCtroller.java" />
         <option value="$PROJECT_DIR$/trend-trading-backtest-service/src/main/java/com/mls/trend/service/BackTestService.java" />
+        <option value="$PROJECT_DIR$/index-hystrix-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/index-hystrix-dashboard/src/main/java/com/mls/trend/IndexHystrixDashboardApplication.java" />
+        <option value="$PROJECT_DIR$/index-hystrix-dashboard/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/trend-trading-backtest-service/pom.xml" />
+        <option value="$PROJECT_DIR$/trend-trading-backtest-service/src/main/java/com/mls/trend/TrendTradingBackTestServiceApplication.java" />
+        <option value="$PROJECT_DIR$/index-turbine/pom.xml" />
+        <option value="$PROJECT_DIR$/trend-trading-backtest-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/index-turbine/src/main/java/com/mls/trend/IndexTurbineApplication.java" />
+        <option value="$PROJECT_DIR$/index-turbine/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/trend-trading-backtest-service/src/main/java/com/mls/trend/service/AccessService.java" />
       </list>
     </option>
   </component>
@@ -276,9 +266,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-34" />
-    <option name="y" value="34" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="296" />
+    <option name="y" value="104" />
     <option name="width" value="1635" />
     <option name="height" value="997" />
   </component>
@@ -303,6 +293,62 @@
               <item name="trendParentProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="trendParentProject" type="462c0819:PsiDirectoryNode" />
               <item name="config-repo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trendParentProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trendParentProject" type="462c0819:PsiDirectoryNode" />
+              <item name="index-turbine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trendParentProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trendParentProject" type="462c0819:PsiDirectoryNode" />
+              <item name="index-turbine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trendParentProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trendParentProject" type="462c0819:PsiDirectoryNode" />
+              <item name="index-turbine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trendParentProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trendParentProject" type="462c0819:PsiDirectoryNode" />
+              <item name="index-turbine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trendParentProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trendParentProject" type="462c0819:PsiDirectoryNode" />
+              <item name="index-turbine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trendParentProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trendParentProject" type="462c0819:PsiDirectoryNode" />
+              <item name="index-turbine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="mls" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trendParentProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trendParentProject" type="462c0819:PsiDirectoryNode" />
+              <item name="index-turbine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="mls" type="462c0819:PsiDirectoryNode" />
+              <item name="trend" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="trendParentProject" type="b2602c69:ProjectViewProjectNode" />
@@ -357,7 +403,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.TrendTradingBackTestViewApplication">
+  <component name="RunManager" selected="Application.AccessService">
+    <configuration name="AccessService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mls.trend.service.AccessService" />
+      <module name="trend-trading-backtest-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mls.trend.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="eureka-server" />
       <extension name="coverage">
@@ -417,6 +476,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IndexHystrixDashboardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="index-hystrix-dashboard" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mls.trend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mls.trend.IndexHystrixDashboardApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IndexTurbineApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="index-turbine" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mls.trend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mls.trend.IndexTurbineApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IndexZuulServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="index-zuul-service" />
       <extension name="coverage">
@@ -430,7 +515,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrendTradingBackTestServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration name="TrendTradingBackTestServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" nameIsGenerated="true">
       <module name="trend-trading-backtest-service" />
       <extension name="coverage">
         <pattern>
@@ -439,6 +524,7 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.mls.trend.TrendTradingBackTestServiceApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -471,6 +557,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.IndexHystrixDashboardApplication" />
       <item itemvalue="Spring Boot.IndexConfigServerApplication" />
       <item itemvalue="Spring Boot.TrendTradingBackTestServiceApplication" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
@@ -479,7 +566,15 @@
       <item itemvalue="Spring Boot.TrendTradingBackTestViewApplication" />
       <item itemvalue="Spring Boot.IndexZuulServiceApplication" />
       <item itemvalue="Spring Boot.IndexGatherStoreApplication" />
+      <item itemvalue="Application.AccessService" />
+      <item itemvalue="Spring Boot.IndexTurbineApplication" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AccessService" />
+        <item itemvalue="Spring Boot.IndexTurbineApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -519,12 +614,12 @@
       <workItem from="1581646614662" duration="9274000" />
       <workItem from="1581659971956" duration="1302000" />
       <workItem from="1581661347212" duration="381000" />
-      <workItem from="1581661732262" duration="14010000" />
+      <workItem from="1581661732262" duration="17755000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119415000" />
+    <option name="totallyTimeSpent" value="123160000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -536,10 +631,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-34" y="34" width="1635" height="997" extended-state="1" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.43345323" visible="true" weight="0.29211086" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.43345323" visible="true" weight="0.3479365" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -548,8 +642,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.35265958" weight="0.38177875" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.35265958" weight="0.38122827" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39977604" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -562,7 +656,7 @@
       <window_info anchor="bottom" id="Spring" order="12" weight="0.32943925" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32943925" />
       <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.56654674" weight="0.25467288" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.3275488" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.3267671" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.2495238" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -583,74 +677,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/trend-trading-backtest-service/src/main/java/com/mls/trend/service/IndexDataClientFeignHystrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trend-trading-backtest-view/src/main/java/com/mls/trend/App.java" />
-    <entry file="file://$PROJECT_DIR$/trend-trading-backtest-view/src/main/resources/static/js/vue/2.5.16/vue.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trend-trading-backtest-view/src/main/resources/static/js/jquery/2.0.0/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="70" lean-forward="true" selection-start-line="5" selection-start-column="70" selection-end-line="5" selection-end-column="70" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf/3.0.9.RELEASE/thymeleaf-3.0.9.RELEASE.jar!/org/thymeleaf/templateparser/markup/AbstractMarkupTemplateParser.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1934">
-          <caret line="118" column="9" lean-forward="true" selection-start-line="118" selection-start-column="9" selection-end-line="118" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trend-trading-backtest-view/src/main/resources/templates/include/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2024">
-          <caret line="88" column="39" selection-start-line="88" selection-start-column="39" selection-end-line="88" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LICENSE">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trend-trading-backtest-service/src/main/java/com/mls/trend/entity/Profit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#116#117#0" expanded="true" />
-            <element signature="e#143#144#0" expanded="true" />
-            <element signature="e#183#184#0" expanded="true" />
-            <element signature="e#215#216#0" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/trend-trading-backtest-service/src/main/java/com/mls/trend/entity/Trade.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="284">
@@ -3061,13 +3087,6 @@
     <entry file="file://$PROJECT_DIR$/eureka-server/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/trend-trading-backtest-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="619">
-          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/third-part-index-data-project/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -3108,13 +3127,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trend-trading-backtest-service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -3168,18 +3180,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trend-trading-backtest-service/src/main/java/com/mls/trend/TrendTradingBackTestServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="26" column="51" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2907#2908#0" expanded="true" />
-            <element signature="e#2951#2952#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index-zuul-service/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="713">
@@ -3221,14 +3221,14 @@
     <entry file="file://$PROJECT_DIR$/trend-trading-backtest-view/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
-          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/trend-trading-backtest-view/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
-          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -3245,14 +3245,14 @@
     <entry file="file://$PROJECT_DIR$/trend-trading-backtest-view/src/main/java/com/mls/trend/controller/ViewController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
-          <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index-config-server/src/main/java/com/mls/trend/util/FreshConfigUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
-          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -3282,7 +3282,7 @@
     <entry file="file://$PROJECT_DIR$/trend-trading-backtest-service/src/main/java/com/mls/trend/service/BackTestService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
-          <caret line="163" column="22" lean-forward="true" selection-start-line="163" selection-start-column="22" selection-end-line="163" selection-end-column="22" />
+          <caret line="163" column="22" selection-start-line="163" selection-start-column="22" selection-end-line="163" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -3292,7 +3292,7 @@
     <entry file="file://$PROJECT_DIR$/trend-trading-backtest-view/src/main/java/com/mls/trend/TrendTradingBackTestViewApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -3312,7 +3312,93 @@
     <entry file="file://$PROJECT_DIR$/config-repo/trend-trading-backtest-view-dev.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="24" lean-forward="true" selection-start-column="24" selection-end-column="24" />
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index-hystrix-dashboard/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="34" column="49" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index-hystrix-dashboard/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trend-trading-backtest-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trend-trading-backtest-service/src/main/java/com/mls/trend/TrendTradingBackTestServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index-turbine/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index-turbine/src/main/java/com/mls/trend/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trend-trading-backtest-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index-turbine/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trend-trading-backtest-service/src/main/java/com/mls/trend/service/AccessService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index-turbine/src/main/java/com/mls/trend/IndexTurbineApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index-hystrix-dashboard/src/main/java/com/mls/trend/IndexHystrixDashboardApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
