@@ -6,28 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="339a49f9-8426-4dd5-ad1b-fa625668990d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index-codes-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/index-codes-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index-codes-service/src/main/java/com/mls/trend/IndexCodesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/index-codes-service/src/main/java/com/mls/trend/IndexCodesApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index-codes-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/index-codes-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index-codes-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/index-codes-service/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index-data-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/index-data-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index-data-service/src/main/java/com/mls/trend/IndexDataApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/index-data-service/src/main/java/com/mls/trend/IndexDataApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index-data-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/index-data-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index-zuul-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/index-zuul-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index-zuul-service/src/main/java/com/mls/trend/IndexZuulServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/index-zuul-service/src/main/java/com/mls/trend/IndexZuulServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index-zuul-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/index-zuul-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index-zuul-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/index-zuul-service/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trend-trading-backtest-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/trend-trading-backtest-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trend-trading-backtest-service/src/main/java/com/mls/trend/TrendTradingBackTestServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/trend-trading-backtest-service/src/main/java/com/mls/trend/TrendTradingBackTestServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trend-trading-backtest-service/src/main/java/com/mls/trend/controller/BackTestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/trend-trading-backtest-service/src/main/java/com/mls/trend/controller/BackTestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trend-trading-backtest-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/trend-trading-backtest-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trend-trading-backtest-service/target/classes/com/mls/trend/controller/BackTestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/trend-trading-backtest-service/target/classes/com/mls/trend/controller/BackTestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trend-trading-backtest-view/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/trend-trading-backtest-view/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trend-trading-backtest-view/src/main/java/com/mls/trend/TrendTradingBackTestViewApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/trend-trading-backtest-view/src/main/java/com/mls/trend/TrendTradingBackTestViewApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trend-trading-backtest-view/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/trend-trading-backtest-view/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trend-trading-backtest-view/src/main/resources/templates/view.html" beforeDir="false" afterPath="$PROJECT_DIR$/trend-trading-backtest-view/src/main/resources/templates/view.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trend-trading-backtest-view/target/classes/templates/view.html" beforeDir="false" afterPath="$PROJECT_DIR$/trend-trading-backtest-view/target/classes/templates/view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,6 +21,7 @@
     <ignored path="$PROJECT_DIR$/index-zuul-service/target/" />
     <ignored path="$PROJECT_DIR$/trend-trading-backtest-service/target/" />
     <ignored path="$PROJECT_DIR$/trend-trading-backtest-view/target/" />
+    <ignored path="$PROJECT_DIR$/index-config-server/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,57 +47,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index-zuul-service/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="713">
-              <caret line="34" column="23" lean-forward="true" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+              <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trend-trading-backtest-service/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/index-config-server/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+            <state relative-caret-position="736">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trend-trading-backtest-view/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/index-config-server/src/main/java/com/mls/trend/IndexConfigServerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index-codes-service/src/main/java/com/mls/trend/IndexCodesApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="734">
-              <caret line="94" column="13" selection-start-line="94" selection-start-column="13" selection-end-line="94" selection-end-column="13" />
+            <state relative-caret-position="154">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3110#3111#0" expanded="true" />
-                <element signature="e#3154#3155#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index-data-service/src/main/java/com/mls/trend/IndexDataApplication.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index-config-server/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="734">
-              <caret line="87" column="13" lean-forward="true" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2976#2977#0" expanded="true" />
-                <element signature="e#3020#3021#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="184">
+              <caret line="8" column="47" lean-forward="true" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/respo/trend-trading-backtest-view-dev.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="25" selection-start-column="25" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -124,7 +99,7 @@
         <entry file="file://$PROJECT_DIR$/index-zuul-service/src/main/java/com/mls/trend/IndexZuulServiceApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="552">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#983#984#0" expanded="true" />
@@ -165,8 +140,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="412" column="42" lean-forward="true" selection-start-line="412" selection-start-column="42" selection-end-line="412" selection-end-column="42" />
+            <state relative-caret-position="1035">
+              <caret line="453" column="42" selection-start-line="453" selection-start-column="42" selection-end-line="453" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -174,8 +149,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="52" />
+            <state relative-caret-position="230">
+              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -202,10 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index-gather-store-service/src/main/java/com/mls/trend/service/IndexService.java" />
-        <option value="$PROJECT_DIR$/index-gather-store-service/src/main/java/com/mls/trend/controller/IndexController.java" />
-        <option value="$PROJECT_DIR$/index-gather-store-service/src/main/java/com/mls/trend/entity/IndexData.java" />
-        <option value="$PROJECT_DIR$/index-gather-store-service/src/main/java/com/mls/trend/controller/IndexDataController.java" />
         <option value="$PROJECT_DIR$/index-gather-store-service/src/main/java/com/mls/trend/service/IndexDataService.java" />
         <option value="$PROJECT_DIR$/index-gather-store-service/pom.xml" />
         <option value="$PROJECT_DIR$/index-gather-store-service/src/main/java/com/mls/trend/config/MyQuartzConfiguration.java" />
@@ -253,6 +224,10 @@
         <option value="$PROJECT_DIR$/trend-trading-backtest-service/src/main/java/com/mls/trend/TrendTradingBackTestServiceApplication.java" />
         <option value="$PROJECT_DIR$/trend-trading-backtest-view/src/main/java/com/mls/trend/TrendTradingBackTestViewApplication.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/index-config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/index-config-server/src/main/java/com/mls/trend/IndexConfigServerApplication.java" />
+        <option value="$PROJECT_DIR$/respo/trend-trading-backtest-view-dev.properties" />
+        <option value="$PROJECT_DIR$/index-config-server/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -319,51 +294,25 @@
             <path>
               <item name="trendParentProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="trendParentProject" type="462c0819:PsiDirectoryNode" />
-              <item name="index-zuul-service" type="462c0819:PsiDirectoryNode" />
+              <item name="index-config-server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="trendParentProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="trendParentProject" type="462c0819:PsiDirectoryNode" />
-              <item name="index-zuul-service" type="462c0819:PsiDirectoryNode" />
+              <item name="index-config-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="trendParentProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="trendParentProject" type="462c0819:PsiDirectoryNode" />
-              <item name="index-zuul-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trendParentProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trendParentProject" type="462c0819:PsiDirectoryNode" />
-              <item name="index-zuul-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trendParentProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trendParentProject" type="462c0819:PsiDirectoryNode" />
-              <item name="trend-trading-backtest-view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trendParentProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trendParentProject" type="462c0819:PsiDirectoryNode" />
-              <item name="trend-trading-backtest-view" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trendParentProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trendParentProject" type="462c0819:PsiDirectoryNode" />
-              <item name="trend-trading-backtest-view" type="462c0819:PsiDirectoryNode" />
+              <item name="index-config-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="trendParentProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="trendParentProject" type="462c0819:PsiDirectoryNode" />
-              <item name="trend-trading-backtest-view" type="462c0819:PsiDirectoryNode" />
+              <item name="index-config-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -371,7 +320,7 @@
             <path>
               <item name="trendParentProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="trendParentProject" type="462c0819:PsiDirectoryNode" />
-              <item name="trend-trading-backtest-view" type="462c0819:PsiDirectoryNode" />
+              <item name="index-config-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -380,7 +329,7 @@
             <path>
               <item name="trendParentProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="trendParentProject" type="462c0819:PsiDirectoryNode" />
-              <item name="trend-trading-backtest-view" type="462c0819:PsiDirectoryNode" />
+              <item name="index-config-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -390,13 +339,21 @@
             <path>
               <item name="trendParentProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="trendParentProject" type="462c0819:PsiDirectoryNode" />
-              <item name="trend-trading-backtest-view" type="462c0819:PsiDirectoryNode" />
+              <item name="index-config-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="mls" type="462c0819:PsiDirectoryNode" />
               <item name="trend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trendParentProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trendParentProject" type="462c0819:PsiDirectoryNode" />
+              <item name="index-config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="trendParentProject" type="b2602c69:ProjectViewProjectNode" />
@@ -451,7 +408,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.TrendTradingBackTestServiceApplication">
+  <component name="RunManager" selected="Spring Boot.IndexConfigServerApplication">
     <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="eureka-server" />
       <extension name="coverage">
@@ -478,6 +435,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IndexConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="index-config-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mls.trend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mls.trend.IndexConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IndexDataApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="index-data-service" />
       <extension name="coverage">
@@ -487,6 +457,13 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.mls.trend.IndexDataApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IndexGatherStoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="index-gather-store-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mls.trend.IndexGatherStoreApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -545,12 +522,14 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.IndexConfigServerApplication" />
       <item itemvalue="Spring Boot.TrendTradingBackTestServiceApplication" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
       <item itemvalue="Spring Boot.IndexCodesApplication" />
       <item itemvalue="Spring Boot.IndexDataApplication" />
       <item itemvalue="Spring Boot.TrendTradingBackTestViewApplication" />
       <item itemvalue="Spring Boot.IndexZuulServiceApplication" />
+      <item itemvalue="Spring Boot.IndexGatherStoreApplication" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -591,12 +570,12 @@
       <workItem from="1581646614662" duration="9274000" />
       <workItem from="1581659971956" duration="1302000" />
       <workItem from="1581661347212" duration="381000" />
-      <workItem from="1581661732262" duration="1686000" />
+      <workItem from="1581661732262" duration="2984000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107091000" />
+    <option name="totallyTimeSpent" value="108389000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -609,6 +588,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.43345323" visible="true" weight="0.29211086" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -620,7 +600,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.35265958" weight="0.382387" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.35265958" weight="0.38177875" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39977604" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -654,31 +634,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index-codes-service/src/main/java/com/mls/trend/entity/Index.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="42" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index-data-service/src/main/java/com/mls/trend/service/IndexDataService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index-zuul-service/src/main/java/com/mls/trend/App.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/4.3.1/hutool-all-4.3.1.jar!/cn/hutool/core/collection/CollUtil.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7567">
-          <caret line="390" column="46" selection-start-line="390" selection-start-column="46" selection-end-line="390" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index-data-service/index-data-service.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
@@ -3319,7 +3274,7 @@
     <entry file="file://$PROJECT_DIR$/index-data-service/src/main/java/com/mls/trend/IndexDataApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="734">
-          <caret line="87" column="13" lean-forward="true" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
+          <caret line="87" column="13" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2976#2977#0" expanded="true" />
@@ -3331,7 +3286,7 @@
     <entry file="file://$PROJECT_DIR$/index-zuul-service/src/main/java/com/mls/trend/IndexZuulServiceApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="552">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#983#984#0" expanded="true" />
@@ -3342,15 +3297,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="52" />
+        <state relative-caret-position="230">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="412" column="42" lean-forward="true" selection-start-line="412" selection-start-column="42" selection-end-line="412" selection-end-column="42" />
+        <state relative-caret-position="1035">
+          <caret line="453" column="42" selection-start-line="453" selection-start-column="42" selection-end-line="453" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -3381,7 +3336,38 @@
     <entry file="file://$PROJECT_DIR$/index-zuul-service/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="713">
-          <caret line="34" column="23" lean-forward="true" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/respo/trend-trading-backtest-view-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index-config-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index-config-server/src/main/java/com/mls/trend/IndexConfigServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index-config-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="47" lean-forward="true" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -3437,7 +3423,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>index-codes-service</last-edited>
+          <last-edited>index-zuul-service</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
