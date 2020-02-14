@@ -51,7 +51,7 @@ public class TrendTradingBackTestServiceApplication {
         if(0==port) {
             Future<Integer> future = ThreadUtil.execAsync(() ->{
                 int p = 0;
-                System.out.printf("请于5秒钟内输入端口号, 推荐  %d ,超过5秒将默认使用 %d ",defaultPort,defaultPort);
+                System.out.printf("请于5秒钟内输入端口号, 推荐  %d ,超过5秒将默认使用 %d \n",defaultPort,defaultPort);
                 Scanner scanner = new Scanner(System.in);
                 while(true) {
                     String strPort = scanner.nextLine();
