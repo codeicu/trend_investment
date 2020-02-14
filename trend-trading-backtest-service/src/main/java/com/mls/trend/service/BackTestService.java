@@ -122,7 +122,6 @@ public class BackTestService {
             profit.setDate(indexData.getDate());
             profit.setValue(rate*init);
 
-            System.out.println("profit.value:" + profit.getValue());
             profits.add(profit);
 
         }

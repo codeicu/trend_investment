@@ -3,11 +3,11 @@ spring:
     name: index-config-server
   cloud:
     config:
-      label: master
       server:
         git:
           uri: https://gitee.com/m_ls/sys_trend.git
-          searchPaths: respo
+          searchPaths: config-repo
+      label: master
 eureka:
   client:
     serviceUrl:
