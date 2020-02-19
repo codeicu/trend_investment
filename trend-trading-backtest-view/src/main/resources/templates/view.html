@@ -59,7 +59,7 @@
             },
             methods: {
                 init:function(){
-                    var url =  "http://127.0.0.1:8031/api-codes/codes";
+                    var url =  "http://47.93.188.100:8031/api-codes/codes";
                     axios.get(url).then(function(response) {
                         vue.indexes = response.data;
                         vue.$nextTick(function(){
@@ -68,7 +68,7 @@
                     });
                 },
                 simulate:function(){
-                    var url =  "http://127.0.0.1:8031/api-backtest/simulate/"+vue.currentIndex+"/"+vue.ma+"/"+vue.buyThreshold+"/"+vue.sellThreshold+"/" +vue.serviceCharge +"/"+vue.startDate+"/"+vue.endDate+"/";
+                    var url =  "http://47.93.188.100:8031/api-backtest/simulate/"+vue.currentIndex+"/"+vue.ma+"/"+vue.buyThreshold+"/"+vue.sellThreshold+"/" +vue.serviceCharge +"/"+vue.startDate+"/"+vue.endDate+"/";
                     axios.get(url).then(function(response) {
                         //清空原数据
                         vue.indexDatas = [];

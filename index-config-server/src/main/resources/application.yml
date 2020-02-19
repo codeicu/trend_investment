@@ -11,9 +11,14 @@ spring:
           searchPaths: config-repo
 
 eureka:
+  instance:
+    ip-address: 39.96.47.233
+    instance-id: ${eureka.instance.ip-address}:${server.port}
+    prefer-ip-address: true
   client:
     service-url:
       defaultZone: http://49.235.218.240:8761/eureka/
+
 server:
   port: 8060
 
