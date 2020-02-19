@@ -3,12 +3,18 @@ spring:
     name: index-config-server
   cloud:
     config:
+      label: master
+      profile: dev
       server:
         git:
           uri: https://gitee.com/m_ls/sys_trend.git
           searchPaths: config-repo
-      label: master
+
 eureka:
   client:
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+    service-url:
+      defaultZone: http://49.235.218.240:8761/eureka/
+server:
+  port: 8060
+
+

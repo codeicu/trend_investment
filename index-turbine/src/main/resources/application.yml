@@ -1,5 +1,6 @@
 spring:
   application.name: turbine
+
 turbine:
   aggregator:
     clusterConfig: default
@@ -9,4 +10,7 @@ turbine:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://49.235.218.240:8761/eureka/
+
+server:
+  port: 8081

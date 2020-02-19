@@ -20,10 +20,6 @@ import java.time.Duration;
 @Configuration
 @ConfigurationProperties(prefix="spring.cache.redis")
 public class MyCacheConfig {
-    private Duration timeToLive=Duration.ZERO;
-    public void setTimeToLive(Duration timeToLive){
-        this.timeToLive=timeToLive;
-    }
 
     @Bean
     public CacheManager cacheManager(RedisConnectionFactory factory){
@@ -38,7 +34,7 @@ public class MyCacheConfig {
 
 //        自定义序列化器
         RedisCacheConfiguration config=RedisCacheConfiguration.defaultCacheConfig()
-                .entryTtl(timeToLive)
+                .entryTtl(Duration.ofDays(1))             //redis过期时效为1天
                 .serializeKeysWith(RedisSerializationContext.SerializationPair.fromSerializer(redisSerializer))
                 .serializeValuesWith(RedisSerializationContext.SerializationPair.fromSerializer(jackson2JsonRedisSerializer))
                 .disableCachingNullValues();

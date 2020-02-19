@@ -18,7 +18,6 @@ public class IndexDataController {
     @Autowired
     IpConfiguration ipConfiguration;
 
-    //http://127.0.01:8021/data/000300
     @GetMapping("/data/{code}")
     public List<IndexData> getIndexData(@PathVariable("code") String code){
         System.out.println("current instance is :"+ipConfiguration.getPort());

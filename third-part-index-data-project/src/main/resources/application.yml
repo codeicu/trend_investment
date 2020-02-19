@@ -1,7 +1,10 @@
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://49.235.218.240:8761/eureka/
 spring:
   application:
     name: third-part-index-data-project
+
+server:
+  port: 8090

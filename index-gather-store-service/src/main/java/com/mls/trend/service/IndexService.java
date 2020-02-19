@@ -42,7 +42,7 @@ public class IndexService {
 
     /*@HystrixCommand(fallbackMethod = "third_part_not_connected")*/
     public List<Index> fetch_indexes_from_third_part(){
-        List<Map> temp= restTemplate.getForObject("http://localhost:8090/indexes/codes.json",List.class);
+        List<Map> temp= restTemplate.getForObject("http://49.235.218.240:8090/indexes/codes.json",List.class);
         return map2Index(temp);
     }
 

@@ -1,0 +1,10 @@
+com\mls\trend\service\IndexDataClientFeignHystrix.class
+com\mls\trend\service\BackTestService.class
+com\mls\trend\entity\AnnualProfit.class
+com\mls\trend\entity\Profit.class
+com\mls\trend\TrendTradingBackTestServiceApplication.class
+com\mls\trend\controller\BackTestController.class
+com\mls\trend\service\IndexDataClient.class
+com\mls\trend\entity\Trade.class
+com\mls\trend\entity\IndexData.class
+com\mls\trend\service\AccessService.class

@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class MyQuartzConfiguration  {
-    private static final int interval=1;
+    private static final int interval=24;               //设置定时器刷新间隔(小时)
 
 //    注册定时器
     @Bean
@@ -20,7 +20,7 @@ public class MyQuartzConfiguration  {
     @Bean
     public Trigger weatherDataSyncTrigger(){
         SimpleScheduleBuilder scheduleBuilder=SimpleScheduleBuilder.simpleSchedule()
-                .withIntervalInMinutes(interval).repeatForever();    //每分钟刷新
+                .withIntervalInHours(interval).repeatForever();    //每24小时刷新
         return TriggerBuilder.newTrigger().forJob(weatherDataSyncJobDetail())
                 .withIdentity("indexDataSyncTrigger").withSchedule(scheduleBuilder).build();
     }

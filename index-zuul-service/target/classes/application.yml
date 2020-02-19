@@ -1,12 +1,12 @@
 eureka:
   client:
     service-url:
-      default-zone: http:localhost:8761/eureka/
+      defaultZone: http://49.235.218.240:8761/eureka/
 spring:
   application:
     name: index-zuul-service
   zipkin:
-    base-url: http://localhost:9411
+    base-url: http://47.93.188.100:9411
 
 zuul:
   routes:
@@ -41,3 +41,6 @@ ribbon:
   host:
     socket-timeout-millis: 60000
     connect-timeout-millis: 60000
+
+server:
+  port: 8031

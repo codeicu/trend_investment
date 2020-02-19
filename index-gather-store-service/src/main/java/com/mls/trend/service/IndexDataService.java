@@ -1,6 +1,5 @@
 package com.mls.trend.service;
 
-import cn.hutool.core.collection.CollUtil;
 import cn.hutool.core.collection.CollectionUtil;
 import cn.hutool.core.convert.Convert;
 import com.mls.trend.entity.IndexData;
@@ -10,7 +9,6 @@ import org.springframework.cache.annotation.CacheConfig;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.CachePut;
 import org.springframework.cache.annotation.Cacheable;
-import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
@@ -34,14 +32,14 @@ public class IndexDataService {
 
     }
 
-    @HystrixCommand(fallbackMethod = "third_part_not_connected")
-    @CachePut(key="'indexData-code-'+ #p0",unless = "#result[0].closePoint==0.0")
+    @HystrixCommand(fallbackMethod = "third_part_not_connected1")
+    @CachePut(key="'indexData-code-'+ #p0",unless = "#result[0].closePoint==0.0f")
     public List<IndexData> fresh(String code){
         System.out.println("fresh indexDatas...");
         return fetch_indexDatas_from_third_part(code);
     }
 
-    @HystrixCommand(fallbackMethod = "third_part_not_connected")
+    @HystrixCommand(fallbackMethod = "third_part_not_connected1")
     @Cacheable(key="'indexData-code-'+ #p0")
     public List<IndexData> get(String code){
         System.out.println("get form third part...");
@@ -50,7 +48,7 @@ public class IndexDataService {
 
 
     public List<IndexData> fetch_indexDatas_from_third_part(String code){
-        List<Map> temp=restTemplate.getForObject("http://localhost:8090/indexes/"+code+".json",List.class);
+        List<Map> temp=restTemplate.getForObject("http://49.235.218.240:8090/indexes/"+code+".json",List.class);
         return map2IndexData(temp);
     }
 
@@ -68,10 +66,10 @@ public class IndexDataService {
 
     }
 
-    public List<IndexData> third_part_not_connected(String code){
+    public List<IndexData> third_part_not_connected1(String code){
         System.out.println("third_part_not_connected...");
         IndexData index= new IndexData();
-        index.setClosePoint(0);
+        index.setClosePoint(0.0f);
         index.setDate("n/a");
         return CollectionUtil.toList(index);
     }

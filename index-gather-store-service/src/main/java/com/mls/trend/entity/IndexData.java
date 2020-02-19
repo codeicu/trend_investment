@@ -1,6 +1,8 @@
 package com.mls.trend.entity;
 
-public class IndexData {
+import java.io.Serializable;
+
+public class IndexData implements Serializable {
     String date;
     float closePoint;
     public String getDate() {

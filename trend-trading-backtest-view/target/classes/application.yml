@@ -1,6 +1,5 @@
+
 spring:
-  application:
-    name: trend-trading-backtest-view
   thymeleaf:
     mode: LEGACYHTML5
     encoding: UTF-8
@@ -8,7 +7,7 @@ spring:
       content-type: text/html
     cache: false
   zipkin:
-    base-url: http://localhost:9411
+    base-url: http://47.93.188.100:9411
 
 management:
   endpoints:

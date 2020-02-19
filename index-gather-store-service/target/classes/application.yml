@@ -1,8 +1,26 @@
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://49.235.218.240:8761/eureka/
 
 spring:
   application:
     name: index-gather-store-service
+  redis:                              #redis
+    host: 49.235.218.240
+    port: 6379
+    timeout: 5000
+    password: 123456
+
+server:
+  port: 8001
+
+hystrix:
+    command:
+      default:
+        execution:
+          timeout:
+            enabled: true
+          isolation:
+            thread:
+              timeoutInMilliseconds: 60000

@@ -1,23 +1,27 @@
+server:
+  port: 8041
 spring:
+  application:
+    name: trend-trading-backtest-view
   cloud:
     config:
       label: master
       profile: dev
       discovery:
         enabled: true
-        serviceId: index-config-server
+        serviceId: INDEX-CONFIG-SERVER
   bus:
     enabled: true
     trace:
       enabled: true
-
-rabbitmq:
-  host: localhost
-  port: 5672
-  username: guest
-  password: guest
+  rabbitmq:
+    host: 39.96.47.233
+    port: 5672
+    username: root
+    password: 123456
 
 eureka:
   client:
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+    service-url:
+      defaultZone: http://49.235.218.240:8761/eureka/
+

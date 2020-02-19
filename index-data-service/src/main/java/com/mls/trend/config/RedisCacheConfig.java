@@ -21,10 +21,6 @@ import java.time.Duration;
 @ConfigurationProperties(prefix = "spring.cache.redis")
 public class RedisCacheConfig {
 
-    private Duration timeToLive = Duration.ZERO;
-    public void setTimeToLive(Duration timeToLive){
-        this.timeToLive=timeToLive;
-    }
 
     @Bean
     public CacheManager cacheManager(RedisConnectionFactory factory) {
@@ -40,7 +36,7 @@ public class RedisCacheConfig {
 
         // 配置序列化（解决乱码的问题）
         RedisCacheConfiguration config = RedisCacheConfiguration.defaultCacheConfig()
-                .entryTtl(timeToLive)
+                .entryTtl(Duration.ofDays(1))
                 .serializeKeysWith(RedisSerializationContext.SerializationPair.fromSerializer(redisSerializer))
                 .serializeValuesWith(RedisSerializationContext.SerializationPair.fromSerializer(jackson2JsonRedisSerializer))
                 .disableCachingNullValues();
