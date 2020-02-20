@@ -14,7 +14,7 @@ import org.springframework.context.annotation.Bean;
 @EnableEurekaClient
 @EnableDiscoveryClient
 @EnableFeignClients
-@EnableCircuitBreaker
+@EnableCircuitBreaker                 //开启信息分享给Hystrix Dashboard
 public class TrendTradingBackTestServiceApplication {
     public static void main(String[] args) {
 

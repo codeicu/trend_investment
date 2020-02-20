@@ -16,12 +16,8 @@ import org.springframework.context.annotation.Bean;
 public class IndexZuulServiceApplication {
     //  http://127.0.0.1:8031/api-codes/codes
     public static void main(String[] args) {
-        int port = 8031;
-        if(!NetUtil.isUsableLocalPort(port)) {
-            System.err.printf("端口%d被占用了，无法启动%n", port );
-            System.exit(1);
-        }
-        new SpringApplicationBuilder(IndexZuulServiceApplication.class).properties("server.port=" + port).run(args);
+
+        new SpringApplicationBuilder(IndexZuulServiceApplication.class).run(args);
 
     }
     @Bean

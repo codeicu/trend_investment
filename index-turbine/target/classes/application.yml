@@ -8,6 +8,8 @@ turbine:
   clusterNameExpression: new String("default")
 
 eureka:
+  instance:
+    prefer-ip-address: true
   client:
     serviceUrl:
       defaultZone: http://49.235.218.240:8761/eureka/

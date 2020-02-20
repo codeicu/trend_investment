@@ -6,11 +6,13 @@ spring:
   redis:                              #redis
     host: 49.235.218.240
     port: 6379
-    timeout: 1000
+    timeout: 5000
     password: 123456
 
 
 eureka:
+  instance:
+    prefer-ip-address: true
   client:
     service-url:
       defaultZone: http://49.235.218.240:8761/eureka/

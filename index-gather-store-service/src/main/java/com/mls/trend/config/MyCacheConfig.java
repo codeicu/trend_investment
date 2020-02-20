@@ -34,7 +34,7 @@ public class MyCacheConfig {
 
 //        自定义序列化器
         RedisCacheConfiguration config=RedisCacheConfiguration.defaultCacheConfig()
-                .entryTtl(Duration.ofDays(1))             //redis过期时效为1天
+                .entryTtl(Duration.ofDays(2))             //redis过期时效为2天
                 .serializeKeysWith(RedisSerializationContext.SerializationPair.fromSerializer(redisSerializer))
                 .serializeValuesWith(RedisSerializationContext.SerializationPair.fromSerializer(jackson2JsonRedisSerializer))
                 .disableCachingNullValues();

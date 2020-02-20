@@ -10,7 +10,7 @@ public class FreshConfigUtil {
         headers.put("Content-Type", "application/json; charset=utf-8");
         System.out.println("正在向远程git仓库获取，可能需要几秒钟，请耐心等待");
 
-        String result = HttpUtil.createPost("http://47.93.188.100:8041/actuator/bus-refresh").addHeaders(headers).execute().body();
+        String result = HttpUtil.createPost("http://39.96.47.233:8060/actuator/bus-refresh").addHeaders(headers).execute().body();
         System.out.println("result:"+result);
         System.out.println("refresh 完成");
     }

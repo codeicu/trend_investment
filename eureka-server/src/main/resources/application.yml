@@ -1,6 +1,6 @@
 eureka:
   instance:
-    hostname: localhost
+    prefer-ip-address: true
   client:
     register-with-eureka: false
     fetch-registry: false
@@ -18,14 +18,3 @@ spring:
     name: eureka-server
 server:
   port: 8761
-
-
-ribbon:
-  ReadTimeout: 60000
-  ConnectTimeout: 60000
-  max:
-    host:
-      connections: 500
-  host:
-    socket-timeout-millis: 60000
-    connect-timeout-millis: 60000

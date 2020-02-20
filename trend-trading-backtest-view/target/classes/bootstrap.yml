@@ -1,6 +1,7 @@
-server:
-  port: 8041
+
 eureka:
+  instance:
+    prefer-ip-address: true
   client:
     service-url:
       defaultZone: http://49.235.218.240:8761/eureka/
@@ -13,11 +14,7 @@ spring:
       profile: dev
       discovery:
         enabled: true
-        serviceId: INDEX-CONFIG-SERVER
-  bus:
-    enabled: true
-    trace:
-      enabled: true
+        serviceId: index-config-server
   rabbitmq:
     host: 39.96.47.233
     port: 5672

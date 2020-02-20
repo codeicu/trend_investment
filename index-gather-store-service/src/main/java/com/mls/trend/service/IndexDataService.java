@@ -5,6 +5,7 @@ import cn.hutool.core.convert.Convert;
 import com.mls.trend.entity.IndexData;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cache.annotation.CacheConfig;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.CachePut;
@@ -24,6 +25,12 @@ public class IndexDataService {
 
     @Autowired
     RestTemplate restTemplate;
+
+    @Value("${thirdPart.ipAddress}")
+    String thirdPartIpAddress;
+
+    @Value("${thirdPart.port}")
+    String thirdPartPort;
 
 
     @CacheEvict(key = "'indexData-code-'+#p0")
@@ -48,7 +55,7 @@ public class IndexDataService {
 
 
     public List<IndexData> fetch_indexDatas_from_third_part(String code){
-        List<Map> temp=restTemplate.getForObject("http://49.235.218.240:8090/indexes/"+code+".json",List.class);
+        List<Map> temp=restTemplate.getForObject("http://"+thirdPartIpAddress+":"+thirdPartPort+"/indexes/"+code+".json",List.class);
         return map2IndexData(temp);
     }
 

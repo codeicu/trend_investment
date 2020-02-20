@@ -1,0 +1,36 @@
+spring:
+  application:
+    name: index-config-server
+  cloud:
+    config:
+      label: master
+      profile: dev
+      server:
+        git:
+          uri: https://gitee.com/m_ls/sys_trend.git
+          searchPaths: config-repo
+    bus:
+      enabled: true
+      trace:
+        enabled: true
+  rabbitmq:
+      host: 39.96.47.233
+      port: 5672
+      username: root
+      password: 123456
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://49.235.218.240:8761/eureka/
+
+
+# 允许/actuator/bus-refresh接口被外部调用
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
+

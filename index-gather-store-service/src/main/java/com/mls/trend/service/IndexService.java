@@ -4,6 +4,7 @@ import cn.hutool.core.collection.CollectionUtil;
 import com.mls.trend.entity.Index;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cache.annotation.CacheConfig;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.CachePut;
@@ -26,6 +27,12 @@ public class IndexService {
     @Autowired
     RestTemplate restTemplate;
 
+    @Value("${thirdPart.ipAddress}")
+    String thirdPartIpAddress;
+
+    @Value("${thirdPart.port}")
+    String thirdPartPort;
+
 
     @CacheEvict(allEntries = true)
     public void remove(){
@@ -42,7 +49,7 @@ public class IndexService {
 
     /*@HystrixCommand(fallbackMethod = "third_part_not_connected")*/
     public List<Index> fetch_indexes_from_third_part(){
-        List<Map> temp= restTemplate.getForObject("http://49.235.218.240:8090/indexes/codes.json",List.class);
+        List<Map> temp= restTemplate.getForObject("http://"+thirdPartIpAddress+":"+thirdPartPort+"/indexes/codes.json",List.class);
         return map2Index(temp);
     }
 
