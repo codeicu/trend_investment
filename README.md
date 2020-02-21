@@ -251,8 +251,7 @@
 
     * ```shell
       因为用到了bus总线和rabbitmq，zipkin需要额外配置rabbitmq连接信息才能获取到服务依赖，格式为
-      nohup java -jar zipkin-server-2.10.1-exec.jar --
-      zipkin.collector.rabbitmq.addresses=xx.xx.x.xxx --zipkin.collector.rabbitmq.username=xxx --zipkin.collector.rabbitmq.password=xxx >zipkin.log 2>&1 &
+      nohup java -jar zipkin-server-2.10.1-exec.jar --zipkin.collector.rabbitmq.addresses=xx.xx.x.xxx --zipkin.collector.rabbitmq.username=xxx zipkin.collector.rabbitmq.password=xxx >zipkin.log 2>&1 &
       链路信息需要进行业务访问之后才能看到，访问地址：http://47.93.188.100:9411/zipkin/dependency/
       ```
 
