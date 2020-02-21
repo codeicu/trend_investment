@@ -156,10 +156,11 @@
 		
         * **version:** rabbitmq 3.7.24-management        redis 5.0.7   
         * rabbitmq需要**erlang**环境支持，参考rabbitmq的github官方教程[安装erlang](https://github.com/rabbitmq/erlang-rpm)
-        * docker启动redis和rabbitmq需要使用-p指定端口映射，最好-v进行配置文件映射，具体教程请前往[百度](www.baidu.com)
+        * docker启动redis和rabbitmq需要使用-p指定端口映射，最好-v进行配置文件映射，具体教程请前往[百度](https://www.baidu.com/)
 
 * **部署微服务**  
   * 微服务
+
 		eureka-server:注册中心
 
 		index-gather-store-service：第三方数据采集服务
