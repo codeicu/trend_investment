@@ -1,8 +1,8 @@
 # 毕业设计_基于SpringCloud的趋势投资分析系统
 
-##介绍
+## 介绍
 
-###**毕业设计项目：基于SpringCloud的趋势投资分析系统**
+### **毕业设计项目：基于SpringCloud的趋势投资分析系统**
 ​																			[点我进入项目页面](http://47.93.188.100:8031/api-view/)
 
 * **研究的主要内容：**
@@ -41,7 +41,7 @@
 
 **中国石油大学（华东）**
 
-##软件架构
+## 软件架构
 
 **为了完成这个项目，都用到了以下的技术**
 
@@ -57,7 +57,7 @@
 
  `Intellij IDEA`,`Maven`，`git`项目迭代
 
-##工作进展
+## 工作进展
 
 （项目已完成）
 
@@ -132,7 +132,7 @@
   
   * [x] 创建父子项目,项目启动
 
-##分布式部署教程
+## 分布式部署教程
 
 * **环境准备**:  
 
@@ -161,32 +161,55 @@
 * **部署微服务**  
   * 微服务
 		eureka-server:注册中心
+
 		index-gather-store-service：第三方数据采集服务
+
 		third-part-index-data-project：第三方数据中心
+
 		index-config-server：配置总线中心
+
 		index-codes-server：指数代码服务
+
 		index-data-server：指数数据服务
+
 		trend-trading-backtest-service：模拟回测业务服务
+
 		trend-trading-backtest-view：模拟回测视图服务
+
 		index-hystrix-dashboard：断路器监控服务
+
 		zipkin-server：链路追踪服务
+
 		index-turbine：断路器聚合服务
+
 		index-zuul-service ：网关转发中心服务
+
 	* 部署顺序
-    -->(链路追踪服务)
+          -->(链路追踪服务)
+
 	  -->(注册中心)
+
 	  -->(第三方数据中心)
+
 	  -->(第三方数据采集服务)
+
 	  -->(配置总线中心)
+
 	  -->(指数代码服务集群)
+
 	  -->(指数数据服务集群)
+
 	  -->(模拟回测业务服务集群)
+
 	  -->(模拟回测视图服务集群)
+
 	  -->(断路器监控服务)
+
 	  -->(断路器聚合服务)
+
 	  -->(网关转发中心服务)
 	  
-* 注意事项及项目中遇到的问题:
+* **注意事项及项目中遇到的问题**:
 
   * 云服务器部署运行jar包姿势:
 
@@ -208,12 +231,12 @@
     * ```java
       eureka:
         instance:
-          prefer-ip-address: true              #部署到公网必须指定此选项
-          ip-address: xx.xx.xx.xxx              #指定公网ip  
+          prefer-ip-address: true              //部署到公网必须指定此选项
+          ip-address: xx.xx.xx.xxx              //指定公网ip  
         client:
           service-url:
             defaultZone: http://xx.xx.xxx.xxx:8761/eureka/
-      这里是个巨坑,如果不配置上面的instance选项，服务会以hostname注册到eureka server，最致命的是如果通过eureka来直接进行通信时，所以服务之间的调用会失败。prefer-ip-address: true可以让微服务以ip注册，但是仍然有问题，因为多网卡机器ip-address一般获取到的是内网地址，如果不手动指定ip-address,服务调用依然会失败。而ip-address对于要部署到不同机器上的集群组件都不一样，这里可以不写,但必须指定prefer-ip-address =true，然后在部署的时候在-jar xxxx.jar后面用--eureka.instance.ip-address=xx.xx.xx.xxx灵活指定。
+      //这里是个巨坑,如果不配置上面的instance选项，服务会以hostname注册到eureka server，最致命的是如果通过eureka来直接进行通信时，所以服务之间的调用会失败。prefer-ip-address:true可以让微服务以ip注册，但是仍然有问题，因为多网卡机器ip-address一般获取到的是内网地址，如果不手动指定ip-address,服务调用依然会失败。而ip-address对于要部署到不同机器上的集群组件都不一样，这里可以不写,但必须指定prefer-ip-address =true，然后在部署的时候在-jar xxxx.jar后面用--eureka.instance.ip-address=xx.xx.xx.xxx灵活指定。
       ```
 
     * ```shell
