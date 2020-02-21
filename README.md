@@ -161,32 +161,55 @@
 * **部署微服务**  
   * 微服务
 		eureka-server:注册中心
+
 		index-gather-store-service：第三方数据采集服务
+
 		third-part-index-data-project：第三方数据中心
+
 		index-config-server：配置总线中心
+
 		index-codes-server：指数代码服务
+
 		index-data-server：指数数据服务
+
 		trend-trading-backtest-service：模拟回测业务服务
+
 		trend-trading-backtest-view：模拟回测视图服务
+
 		index-hystrix-dashboard：断路器监控服务
+
 		zipkin-server：链路追踪服务
+
 		index-turbine：断路器聚合服务
+
 		index-zuul-service ：网关转发中心服务
+
 	* 部署顺序
-    -->(链路追踪服务)
+          -->(链路追踪服务)
+
 	  -->(注册中心)
+
 	  -->(第三方数据中心)
+
 	  -->(第三方数据采集服务)
+
 	  -->(配置总线中心)
+
 	  -->(指数代码服务集群)
+
 	  -->(指数数据服务集群)
+
 	  -->(模拟回测业务服务集群)
+
 	  -->(模拟回测视图服务集群)
+
 	  -->(断路器监控服务)
+
 	  -->(断路器聚合服务)
+
 	  -->(网关转发中心服务)
 	  
-* 注意事项及项目中遇到的问题:
+* **注意事项及项目中遇到的问题**:
 
   * 云服务器部署运行jar包姿势:
 
