@@ -231,13 +231,12 @@
     * ```java
       eureka:
         instance:
-          prefer-ip-address: true              #部署到公网必须指定此选项
-          ip-address: xx.xx.xx.xxx              #指定公网ip  
+          prefer-ip-address: true              //部署到公网必须指定此选项
+          ip-address: xx.xx.xx.xxx              //指定公网ip  
         client:
           service-url:
             defaultZone: http://xx.xx.xxx.xxx:8761/eureka/
-      /*这里是个巨坑,如果不配置上面的instance选项，服务会以hostname注册到eureka server，最致命的是如果通过eureka来直接进行通信时，所以服务之间的调用会失败。prefer-ip-address:true可以让微服务以ip注册，但是仍然有问题，因为多网卡机器ip-address一般获取到的是内网地址，如果不手动指定ip-address,服务调用依然会失败。而ip-address对于要部署到不同机器上的集群组件都不一样，这里可以不写,但必须指定prefer-ip-address =true，然后在部署的时候在-jar xxxx.jar后面用--eureka.instance.ip-address=xx.xx.xx.xxx灵活指定。
-      */
+      这里是个巨坑,如果不配置上面的instance选项，服务会以hostname注册到eureka server，最致命的是如果通过eureka来直接进行通信时，所以服务之间的调用会失败。prefer-ip-address:true可以让微服务以ip注册，但是仍然有问题，因为多网卡机器ip-address一般获取到的是内网地址，如果不手动指定ip-address,服务调用依然会失败。而ip-address对于要部署到不同机器上的集群组件都不一样，这里可以不写,但必须指定prefer-ip-address =true，然后在部署的时候在-jar xxxx.jar后面用--eureka.instance.ip-address=xx.xx.xx.xxx灵活指定。
       ```
 
     * ```shell
